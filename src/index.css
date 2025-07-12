@@ -1,12 +1,10 @@
+@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
 
-@import "tailwindcss";
 @tailwind base;
-
 @tailwind components;
 @tailwind utilities;
-/* @import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap"); */
-@import "tailwindcss";
+
 @theme {
   --color-primary: #030412;
   --color-midnight: #06091f;
@@ -159,7 +157,7 @@ body {
 
   --breakpoint-xs: 480px;
 
-  --background-image-hero-pattern: url("/hero-bg.png");
+
 }
 
 @layer base {
