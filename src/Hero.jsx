@@ -1,5 +1,5 @@
 import React, { Suspense, useEffect, useState } from 'react';
-import Herotext from './herotext';
+import Herotext from './Herotext';
 import Parallaxbg from './parallaxbg';
 import { Headphones } from "./headphones";
 import { Keyboard } from "./keyboard";
